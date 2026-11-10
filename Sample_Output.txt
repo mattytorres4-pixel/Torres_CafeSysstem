@@ -1,0 +1,50 @@
+"C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2026.3\plugins\java\lib\idea_rt.jar=62875" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Joven\IdeaProjects\Torres_CafeSysstem\out\production\Torres_CafeSysstem CafeApp
+Testing invalid inputs:
+Invalid beverage size!
+Extra sides cannot be negative!
+
+Iced Coffee added to order.
+Chocolate Muffin added to order.
+Chicken Rice added to order.
+
+Adding a fourth item:
+Order can only contain 3 items!
+Milk Tea added to order.
+Cheese Bread added to order.
+Burger Meal added to order.
+
+================================
+       CAMPUS CAFE RECEIPT
+================================
+Order ID: ORD-001
+Customer: Matt
+--------------------------------
+Iced Coffee Size: M  PHP 95.00
+Chocolate Muffin     PHP 50.00
+Chicken Rice         PHP 120.00
+--------------------------------
+Subtotal: PHP 265.00
+Student Discount: PHP 26.50
+Total: PHP 238.50
+Loyalty Points: 4
+================================
+
+================================
+       CAMPUS CAFE RECEIPT
+================================
+Order ID: ORD-002
+Customer: Malia
+--------------------------------
+Milk Tea Size: L     PHP 115.00
+Cheese Bread (Heated) PHP 55.00
+Burger Meal (Combo)  PHP 210.00
+--------------------------------
+Subtotal: PHP 380.00
+Student Discount: PHP 0.00
+Total: PHP 380.00
+Loyalty Points: 7
+================================
+
+Total with PHP 20 voucher: PHP 360.0
+
+Process finished with exit code 0
